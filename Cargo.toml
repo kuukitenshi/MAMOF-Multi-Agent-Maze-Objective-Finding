@@ -1,0 +1,19 @@
+[package]
+name = "mamof"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bevy = { version = "0.16", features = ["wayland"] }
+clap = "4.5.39"
+knossos = "1.2.0"
+pathfinding = "4.14.0"
+rand = "0.9.1"
+serde = { version = "1.0.219", features = ["derive"] }
+serde_json = "1.0.140"
+
+[profile.dev]
+opt-level = 1
+
+[profile.dev.package."*"]
+opt-level = 3
