@@ -13,6 +13,9 @@
 - Laura Cunha - 112269
 - Rodrigo Correia - 112270
 
+---
+### Project
+This project tackles the challenge of multi-agent pathfinding in maze-like environments, focusing on coordination and information sharing. Agents explore independently until one finds the exit. That agent then cooperatively guides the others to the goal.
 
 ---
 ### How to Compile
